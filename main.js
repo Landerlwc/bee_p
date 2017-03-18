@@ -1,0 +1,13 @@
+require.config({
+	paths:{
+		jquery:"lib/jquery",
+		underscore:"lib/underscore",
+		backbone:"lib/backbone",
+		css:"lib/css",
+		text:"lib/text",
+	}
+});
+require(["backbone","router"],function(){
+	location.hash="homepage";
+	Backbone.history.start();
+});

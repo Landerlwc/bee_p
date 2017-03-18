@@ -1,0 +1,102 @@
+@charset "utf-8";
+html{
+	height: 100%;
+	font-size: 125%;
+	font-family: '微软雅黑',Helvetica,Tahoma,Arial,'华文细黑',sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	background: #EFEFEF;
+	padding-top: 2.75rem;
+}
+
+#addressHeader{
+	width: 100%;
+	height: 2.75rem;
+	line-height: 2.75rem;
+	text-align: center;
+	font-size: 0.7rem;
+	color: #333;
+	background: #f9fafd;
+	font-weight: 600;
+	position: relative;
+	margin-top: -2.75rem;
+}
+#addressHeader a:first-child{
+	position: absolute;
+	left: 1rem;
+	top: 0.7rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: url(../images/left.png) no-repeat left center;
+	background-size: 1.5rem 1.5rem;
+}
+#addressMain{
+	width: 100%;
+}
+#addressMain>div{
+	height: 4.8rem;
+	width: 100%;
+	background: #FFFFFF;
+	display: flex;
+	align-items: center;
+	padding-left: 1rem;
+}
+.myInfo{
+	width: 11rem;
+	height: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-right: 1px solid #ccc;
+}
+.myInfo p{
+	font-size: 0.7rem;
+	display: block;
+}
+.myInfo p:nth-child(2){
+	color: #999;
+}
+#addressMain>div>a{
+	display: block;
+	width: 4.8rem;
+	height: 3rem;
+	background: url(../images/modify.png) no-repeat center center;
+	background-size: 2rem 2rem;
+}
+
+
+
+
+#addressFooter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #FFFFFF;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 3rem;
+	width: 100%;
+}
+#addressFooter a{
+	display: block;
+	width: 9.6rem;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	text-align: center;
+	background: #ffd600;
+	font-size: 0.8rem;
+}

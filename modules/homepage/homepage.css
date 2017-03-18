@@ -1,0 +1,373 @@
+html{
+	font-size: 125%;
+	font-family: '微软雅黑',Helvetica,Tahoma,Arial,'华文细黑',sans-serif;
+}
+body{
+	width: 100%;
+	padding-top: 2.75rem;
+	height: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style:none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 209948 */
+  src: url('http://at.alicdn.com/t/font_ll9xxvee8bwvzpvi.eot');
+  src: url('http://at.alicdn.com/t/font_ll9xxvee8bwvzpvi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_ll9xxvee8bwvzpvi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_ll9xxvee8bwvzpvi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_ll9xxvee8bwvzpvi.svg#iconfont') format('svg');
+}
+
+
+/*轮播图部分*/
+ 
+#banner{
+	width: 100%;
+	height: 6rem;
+	background: red;
+}
+.swiper-container{
+	width: 100%;
+	height: 100%;
+}
+#banner img{
+	width: 16rem;
+	height: 6rem;
+}
+#banner .swiper-pagination{
+	right: 1rem;
+	width: 6rem;
+	bottom: 0.5rem;
+}
+#banner .swiper-pagination-bullet-active{
+	background: orange;
+}
+
+
+
+/*主要内容*/
+main{
+	width: 100%;
+	background: #efefef;
+	padding-top: 0.1px;
+}
+nav{
+	height: 8rem;
+	width: 100%;
+	background: white;
+	margin-top: 1rem;
+	display: flex;
+	padding:0.4rem;
+	flex-wrap: wrap;
+}
+nav a{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	height: 3.5rem;
+}
+nav a img{
+	height: 2.5rem;
+}
+nav a span{
+	font-size: 0.6rem;
+	text-align:center;
+	color: #333;
+}
+nav div{
+	display: flex;
+}
+.milk-orange{
+	width: 100%;
+	margin-top: 1rem;
+	height: 7rem;
+	background: white;
+	display: flex;
+}
+.milk-orange a{
+	display: block;
+	width: 33.3%;
+	height: 100%;
+	border-right: 1px solid #ccc;
+}
+.milk-orange a:last-child{
+	border:none;
+}
+.milk-orange a img{
+	width: 100%;
+}
+
+
+.store{
+	width: 100%;
+	height: 15.9rem;
+	background: white;
+	margin-top: 1rem;
+}
+.sendToHome{
+	width: 100%;
+	height: 2.4rem;
+	background: url(../images/201609232046093.png@90Q.png) no-repeat center center;
+	background-size:14rem 2rem; 
+}
+.hotSale{
+	width: 100%;
+	height: 3rem;
+	display: flex;
+	padding: 0.2rem 0.5rem;
+	justify-content: space-around;
+}
+.hotSale a{
+	width: 6.5rem;
+	height: 2.5rem;
+}
+.hotSale a:first-child{
+	background: url(../images/2016092417285271.jpg@90Q.jpg) no-repeat;
+	background-size: 6.5rem 2.5rem;
+}
+.hotSale a:last-child{
+	background: url(../images/2016092417282359.jpg@90Q.jpg) no-repeat;
+	background-size: 6.5rem 2.5rem;
+}
+.linkMarket{
+	width: 100%;
+	height: 4.5rem;
+	display: flex;
+}
+.linkMarket a{
+	width: 25%;
+	padding-top: 3rem;
+	text-align: center;
+	font-size: 0.6rem;
+	color: #333;
+}
+.linkMarket a:nth-child(1){
+	background: url(../images/2016092415274759.png@90Q.png) no-repeat center top;
+	background-size: 4.5rem 3rem;
+}
+.linkMarket a:nth-child(2){
+	background: url(../images/2016092415272487.png@90Q.png) no-repeat center top;
+	background-size: 4.5rem 3rem;
+}
+.linkMarket a:nth-child(3){
+	background: url(../images/2016092415283782.png@90Q.png) no-repeat center top;
+	background-size: 4.5rem 3rem;
+}
+.linkMarket a:nth-child(4){
+	background: url(../images/2016092411075920.png@90Q.png) no-repeat center top;
+	background-size: 4.5rem 3rem;
+}
+.adv{
+	width: 100%;
+	height: 6rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.adv a{
+	width: 50%;
+	height: 3rem;
+	border: 1px solid #e0e0e0;
+	background-size: 8rem 3rem!important;
+}
+.adv a:nth-child(1),.adv a:nth-child(3){
+	border-right: none;
+}
+.adv a:nth-child(1),.adv a:nth-child(2){
+	border-bottom: none;
+}
+.adv a:nth-child(1){
+	background: url(../images/2016122610531910.jpg@90Q.jpg) no-repeat;
+}
+.adv a:nth-child(2){
+	background: url(../images/2016112918160610.jpg@90Q.jpg) no-repeat;
+}
+.adv a:nth-child(3){
+	background: url(../images/201609241914489.jpg@90Q.jpg) no-repeat;
+}
+.adv a:nth-child(4){
+	background: url(../images/2016092417350939.png@90Q.png) no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+#list{
+	width: 100%;
+	margin-top: 1rem;
+	padding-top: 0.1px;
+}
+#list>li{
+	clear: both;
+	margin-bottom:1rem;
+	background: white;
+	display: flex;
+	flex-direction: column;
+}
+#list .convFood{
+	margin-bottom: 3rem!important;
+}
+/*共同的特点*/
+.top{
+	padding: 0.5rem;
+}
+.top img{
+	width: 100%;
+}
+.info{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+}
+.info div{
+	display: flex;
+	font-size: 0.8rem;
+}
+.info span{
+	display: block;
+	width: 0.5rem;
+	height: 1rem;
+	margin-right: 0.25rem;
+}
+.info a{
+	font-size: 0.6rem;
+	color: #999999;
+}
+
+.bottom{
+	padding-top: 0.1px;
+	padding-bottom:0.5rem;
+}
+.bottom li{
+	position: relative;
+	width: 33.2%;
+	border-right: 1px solid #E0E0E0;
+	padding: 0 0.25rem;
+	float: left;
+	background: white;
+}
+.bottom li:last-child{
+	border:none;
+}
+.bottom img{
+	width: 4.7rem;
+}
+.p1{
+	font-size: 0.6rem;
+	line-height: 1rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow:hidden;
+}
+.p2{
+	font-size: 0.5rem;
+	border:1px solid red;
+	border-radius: 0.25rem;
+	width: 2.7rem;
+	text-align: center;
+	color: white;
+	background: red;
+	margin-top:0.25rem;
+}
+.free{
+	width: 4rem;
+	font-size: 0.6rem;
+	color: red;
+	border:1px solid;
+	border-radius:0.25rem;
+	margin-top:0.25rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+.p3{
+	font-size: 0.6rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #999;
+	margin-top:0.15rem;
+}
+.p4{
+	font-size: 0.6rem;
+}
+.p4 .sp1{
+	color: red;
+}
+.sp2{
+	color: #ccc;
+	text-decoration: line-through;
+	margin-left: 0.25rem;
+}
+.add{
+	display: block;
+	width: 1.65rem;
+	height: 1.65rem;
+	line-height: 1.5rem;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: white;
+	color: red;
+	border-radius: 50%;
+	border:1px solid #ccc;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+
+
+
+.goodFruit .info span{
+	background:#F38631;
+}
+.goodFruit .info div{
+	color: #F38631;
+}
+
+.milkBread .info span{
+	background:#20B1FA;
+}
+.milkBread .info div{
+	color: #20B1FA;
+}
+
+.hotFood .info span{
+	background:#7B4D03;
+}
+.hotFood .info div{
+	color: #7B4D03;
+}
+.drink .info span{
+	background:#FF3319;
+}
+.drink .info div{
+	color: #FF3319;
+}
+
+.snacks .info span{
+	background:#E80013;
+}
+.snacks .info div{
+	color: #E80013;
+}
+.convFood .info span{
+	background:#1EB2A3;
+}
+.convFood .info div{
+	color: #1EB2A3;
+}

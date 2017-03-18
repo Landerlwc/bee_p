@@ -1,0 +1,174 @@
+@charset "utf-8";
+html{
+	font-size: 125%;
+	font-family: '微软雅黑',Helvetica,Tahoma,Arial,'华文细黑',sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	padding-top: 2.75rem;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 209948 */
+  src: url('http://at.alicdn.com/t/font_r0wrjei40sa1c3di.eot');
+  src: url('http://at.alicdn.com/t/font_r0wrjei40sa1c3di.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_r0wrjei40sa1c3di.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_r0wrjei40sa1c3di.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_r0wrjei40sa1c3di.svg#iconfont') format('svg');
+}
+
+#marketMain{
+	display: flex;
+	width: 100%;
+}
+#marketNav{
+	width: 25%;
+	height: 100%;
+	position: fixed;
+	top: 2.75rem;
+	left: 0;
+	overflow: auto;
+}
+#marketNav li{
+	height: 2.45rem;
+	border-bottom: 1px solid #e0e0e0;
+	color: #6d6d6d;
+	font-size: 0.6rem;
+	text-align: center;
+	background: #F8F8F8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#marketNav li a{
+	display: block;
+	width: 100%;
+	height: 2rem;
+	text-align: center;
+	line-height: 2rem;
+}
+#marketNav li:first-child a{
+	border-left: 3px solid #ffd600;
+}
+#marketNav li:nth-child(2){
+	background: url(http://img01.bqstatic.com/upload/activity/201/608/1510/20160815105444_045320.jpg) no-repeat right top,#F8F8F8;
+	background-size:40% auto;
+}
+#marketNav li:last-child{
+	margin-bottom: 3rem;
+	height: 2.45rem;
+}
+#products{
+	margin-left: 25%;
+	width: 75%;
+}
+.style{
+	height: 2.5rem;
+	width: 74%;
+	border-bottom: 1px solid #ccc;
+	position: fixed;
+	top: 2.75rem;
+	right: 0;
+	background: rgba(255,255,255,.98);
+	z-index: 1;
+}
+.style a{
+	float: left;
+	width: 50%;
+	font-size: 0.6rem;
+	color: #777;
+	position: relative;
+	line-height: 2.45rem;
+	padding-right: 0.75rem;
+	display: flex;
+	justify-content: center;
+	text-align:center;
+}
+.style a:nth-child(2)::before{
+	font-family:"iconfont";
+	content: "\e6a9";
+	font-size: 1.25rem;
+	position: absolute;
+	left: -1rem;
+	top: 0.1rem;
+}
+.style a span::after{
+	font-family: "iconfont";
+	content:"\e69e";
+	font-size: 0.75rem;
+}
+.show{
+	width: 100%;
+	height: 25rem;
+	padding-top: 2.5rem;
+	overflow: auto;
+	padding-left: 0.2rem;
+	padding-bottom: 3rem;
+	background: white;
+}
+
+.show li{
+	padding:0.25rem;
+	display: flex;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+
+.show img{
+	width: 4.8rem;
+	height: 4.8rem;
+}
+.marketP1{
+	font-size: 0.6rem;
+	color: #232b33;
+}
+.marketP2{
+	font-size: 0.5rem;
+	color: red;
+	border: 1px solid red;
+	width: 2.7rem;
+	border-radius: 0.25rem;
+	text-align: center;
+	margin-top: 0.25rem;
+}
+.marketP3{
+	font-size: 0.6rem;
+	color: #E3E3E3;
+	margin-top: 0.25rem;
+}
+.marketSp1{
+	font-size: 0.6rem;
+	color: #ff3380;
+}
+.marketSp2{
+	font-size: 0.6rem;
+	color: #999;
+	text-decoration: line-through;
+	margin-left: 0.2rem;
+}
+.marketAdd{
+	display: block;
+	width: 1.65rem;
+	height: 1.65rem;
+	line-height: 1.5rem;
+	position: absolute;
+	right: 0.5rem;
+	bottom: 0.6rem;
+	background: white;
+	color: red;
+	border-radius: 50%;
+	border:1px solid #ccc;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 600;
+}

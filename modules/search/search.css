@@ -1,0 +1,108 @@
+@charset "utf-8";
+html{
+	height: 100%;
+	font-size: 125%;
+	font-family: '微软雅黑',Helvetica,Tahoma,Arial,'华文细黑',sans-serif;
+}
+body{
+	width: 100%;
+	height: 100%;
+	padding-top: 2.75rem;
+	background: #efefef;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style:none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 209948 */
+  src: url('http://at.alicdn.com/t/font_28irloh7qwave7b9.eot');
+  src: url('http://at.alicdn.com/t/font_28irloh7qwave7b9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_28irloh7qwave7b9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_28irloh7qwave7b9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_28irloh7qwave7b9.svg#iconfont') format('svg');
+}
+
+#searchHeader{
+	width: 100%;
+	height: 2.64rem;
+	line-height: 2.64rem;
+	background: #f9fafd;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem;
+	align-items: center;
+	position: fixed;
+	top: 0;
+}
+#searchHeader>a::after{
+	font-family: "iconfont";
+	content: "\e61c";
+	color: #BAB8C2;
+	font-size: 1.2rem;
+}
+#searchHeader input{
+	border: 1px solid #e0e0e0;
+	height: 1.5rem;
+	flex: 1 1 auto;
+	margin-left: 1rem;
+	margin-right: 0.5rem;
+	border-radius: 0.3rem;
+	text-indent: 1.4rem;
+	background: url(../images/Hse123arch.png) no-repeat 0.25rem center;
+	background-size: 0.8rem 0.8rem;
+}
+#searchHeader button{
+	margin-right: 1rem;
+	border: none;
+	background:#f9fafd;
+	color: #777;
+	font-size: 0.7rem; 
+}
+#searchMain{
+	height: 100%;
+	width: 100%;
+	margin-top: -2.75rem;
+	padding-top: 2.64rem;
+}
+.hotSearch,.historySearch,.clearHistory{
+	clear: both;
+	padding-top: 0.1px;
+}
+.hotSearch a,.historySearch a{
+	float: left;
+	padding:10px;
+	background: white;
+	border-radius: 30%;
+	margin-left:1rem;
+	font-size: 0.8rem;
+	margin-top: 0.8rem;
+}
+.hotSearch p,.historySearch p{
+	color: #888;
+	clear: both;
+	font-size: 0.8rem;
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+.historySearch{
+	margin-bottom: 2rem;
+}
+.clearHistory{
+	display: block;
+	width: 6rem;
+	height: 2rem;
+	border:1px solid #ccc;
+	color: #888;
+	text-align: center;
+	line-height: 2rem;
+	margin:0 auto;
+	border-radius: 1rem;
+}

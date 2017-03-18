@@ -1,0 +1,99 @@
+@charset "utf-8";
+html{
+	height: 100%;
+	font-size: 125%;
+	font-family: '微软雅黑',Helvetica,Tahoma,Arial,'华文细黑',sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	background: #EFEFEF;
+	padding-top: 2.75rem;
+}
+
+#aboutUsHeader{
+	width: 100%;
+	height: 2.75rem;
+	line-height: 2.75rem;
+	text-align: center;
+	font-size: 0.7rem;
+	color: #333;
+	background: #f9fafd;
+	font-weight: 600;
+	position: relative;
+	margin-top: -2.75rem;
+}
+#aboutUsHeader a:first-child{
+	position: absolute;
+	left: 1rem;
+	top: 0.7rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: url(../images/left.png) no-repeat left center;
+	background-size: 1.5rem 1.5rem;
+}
+
+#aboutUsMain{
+	width: 100%;
+	height: 15.2rem;
+	background: white;
+	padding-top: 2rem;
+}
+
+#aboutUsMain h1{
+	width: 16rem;
+	height: 7.2rem;
+	padding-top: 6.5rem;
+	background: url(../images/about_logo-79b15593.png) no-repeat center 1rem;
+	background-size: 5rem 5rem;
+	font-size: 0.7rem;
+	text-align: center;
+}
+
+#aboutUsMain p{
+	width: 100%;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	background: url(../images/about_weixin-81473699.png) no-repeat 4.55rem center;
+	background-size: 1.6rem 1.5rem;
+	margin-top: 2rem;
+	text-indent: 7rem;
+	font-size: 0.6rem;
+	font-weight: 600;
+}
+
+#aboutUsFooter{
+	width: 100%;
+	height: 10.4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 0.6rem;
+	padding-top: 0.1px;
+}
+#aboutUsFooter h3{
+	margin-top: 1rem;
+}
+.aboutUsP1,.aboutUsP2{
+	margin-top: 0.5rem;
+	color: #999;
+}
+.aboutUsP3{
+	color: #999;
+	margin-top: 2.5rem;
+}
+.aboutUsP4{
+	color: #999;
+	margin-top: 0.5rem;
+}

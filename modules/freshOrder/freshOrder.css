@@ -1,0 +1,126 @@
+@charset "utf-8";
+html{
+	font-size: 125%;
+	font-family: '微软雅黑',Helvetica,Tahoma,Arial,'华文细黑',sans-serif;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: #eeeef0;
+	padding-top: 2.75rem;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style:none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 209948 */
+  src: url('http://at.alicdn.com/t/font_ll9xxvee8bwvzpvi.eot');
+  src: url('http://at.alicdn.com/t/font_ll9xxvee8bwvzpvi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_ll9xxvee8bwvzpvi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_ll9xxvee8bwvzpvi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_ll9xxvee8bwvzpvi.svg#iconfont') format('svg');
+}
+
+.orderTitle{
+	width: 100%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	font-weight: 510;
+	font-size: 0.8rem;
+	text-align: center;
+	background: #f9fafd;
+	margin-top: -2.75rem;
+}
+#classify{
+	width: 100%;
+	height: 4rem;
+	background: white;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+#classify>div{
+	width: 100%;
+	height: 2rem;
+	border-bottom: 1px solid #d1d1d1;
+	display: flex;
+	justify-content: space-around;
+}
+
+#classify a{	
+	float: left;
+	width: 19%;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 0.6rem;
+	text-align: center;
+	color: #898989;
+}
+.fruit{
+	color: black;
+	border-bottom: 2px solid #595656;
+}
+#orderMain{
+	width: 100%;
+}
+#orderMain ul{
+	width: 100%;
+	background: white;
+	margin-bottom: 1rem;
+}
+#orderMain ul:last-child{
+	margin-bottom: 3.5rem!important;
+}
+#orderMain li{
+	width: 100%;
+	height: 6rem;
+	padding:0.5rem 2rem 0.5rem 0.5rem;
+	position: relative;
+	border-bottom: 1px solid #e0e0e0;
+}
+#orderMain .img1{
+	width: 40%;
+	float: left;
+}
+.orderAdd{
+	display: block;
+	position: absolute;
+	right: 1rem;
+	bottom: 1rem;
+	width: 2rem;
+	height: 2rem;
+	background: url(../images/addtocar.png) no-repeat center center,red;
+	background-size: 1.2rem 1.2rem;
+	border-radius: 100%;
+}
+#orderMain li div{
+	width: 60%;
+	float: left;
+	padding-left: 1rem;
+	padding-top: 0.6rem;
+}
+.orderP1{
+	font-size: 0.7rem;
+	color: #8b8b8b;
+	margin-bottom: 0.3rem;
+}
+.orderP2{
+	font-size: 0.6rem;
+}
+.orderSp1{
+	color: #f1361d;
+	font-size: 0.8rem;
+}
+.orderSp2{
+	font-size: 0.7rem;
+	color: #999999;
+	margin-left: 0.5rem;
+	text-decoration: line-through;
+}

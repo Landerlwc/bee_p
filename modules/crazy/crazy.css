@@ -1,0 +1,232 @@
+@charset "utf-8";
+html{
+	height: 100%;
+	font-size: 125%;
+	font-family: '微软雅黑',Helvetica,Tahoma,Arial,'华文细黑',sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	background: #EFEFEF;
+	padding-top: 2.75rem;
+}
+#car{
+	position: fixed;
+	width: 3.5rem;
+	height: 3.5rem;
+	right: 1rem;
+	bottom: 1rem;
+	background: url(../images/car2.png) center center,#ffd600;
+	border-radius: 100%;
+	background-size: 3rem 3rem;
+	z-index: 2;
+}
+#car span{
+	display: block;
+	position: absolute;
+	width: 1.1rem;
+	height: 1.1rem;
+	right: 0;
+	top: 0;
+	background: #f40;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 1.1rem;
+	font-size: 0.6rem;
+	color: white;
+}
+#crazyHeader{
+	width: 100%;
+	height: 2.75rem;
+	line-height: 2.75rem;
+	text-align: center;
+	font-size: 0.7rem;
+	color: #333;
+	background: #f9fafd;
+	font-weight: 600;
+	position: relative;
+	margin-top: -2.75rem;
+}
+#crazyHeader a:first-child{
+	position: absolute;
+	left: 1rem;
+	top: 0.7rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: url(../images/left.png) no-repeat left center;
+	background-size: 1.5rem 1.5rem;
+}
+#crazyHeader a:last-child{
+	position: absolute;
+	right: 1rem;
+	top: 0.7rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: url(../images/refresh.png) no-repeat left center;
+	background-size: 1.5rem 1.5rem;
+}
+
+#crazyBanner{
+	width: 100%;
+	height: 7rem;
+	background: url(../images/2016092318241233.jpg);
+	background-size:16rem 7rem;
+}
+
+#crazyTime{
+	display: flex;
+	justify-content: space-around;
+}
+#crazyTime li{
+	width: 24.6%;
+	height: 4.2rem;
+	background: url(../images/down3.png) no-repeat center 2.8rem,#272c2a;
+	background-size: 1rem 1rem;
+}
+#crazyTime li:first-child{
+	background-color: #fdd000;
+}
+#crazyTime li p{
+	color: white;
+	font-size: 0.7rem;
+	width: 100%;
+	margin-top: 0.3rem;
+	text-align: center;
+}
+
+#endTime{
+	width: 100%;
+	height: 2rem;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.1rem;
+	align-items: center;
+}
+#endTime>div{
+	width: 6.4rem;
+	height: 2rem;
+	background: #fdd000;
+	font-size: 0.7rem;
+	text-align: center;
+	position: relative;
+}
+#endTime>div::after{
+	content:"";
+	width: 0;
+	height: 0;
+	border-top: 1rem solid transparent;
+	border-bottom: 1rem solid transparent;
+	border-left: 0.5rem solid #fdd000;
+	position: absolute;
+	left: 6.4rem;
+	top: 0;
+}
+#endTime a{
+	width: 5.7rem;
+	height: 1.4rem;
+	font-size: 0.7rem;
+	background: #272c2a;
+	border-radius: 0.5rem;
+	text-align: center;
+	line-height: 1.4rem;
+	color: white;
+	margin-right: 0.5rem;
+}
+
+.crazyList{
+	width: 100%;
+	height: 7.5rem;
+	background: white;
+	display: flex;
+	position: relative;
+	border-bottom: 1px solid #e0e0e0;
+}
+.crazyList img{
+	width: 40%;
+	margin-right:1rem;
+}
+.crazyList>div{
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
+	padding: 1rem 0;
+}
+.crazyP1{
+	font-size: 0.7rem;
+	color: #333;
+}
+.crazyP2{
+	font-size: 0.7rem;
+}
+.crazySp1{
+	font-size: 1.25rem;
+	color: #ff602c;
+	font-weight: 600;
+}
+.crazySp2{
+	font-size: 0.65rem;
+	color: #979697;
+}
+.isHas{
+	height: 1.8rem;
+	width: 5.6rem;
+	background: #ff602c;
+	border-radius: 1rem;
+	text-align: center;
+	line-height: 1.8rem;
+	color: white;
+}
+.noHas{
+	height: 1.8rem;
+	width: 5.6rem;
+	background: #aaa;
+	border-radius: 1rem;
+	text-align: center;
+	line-height: 1.8rem;
+	color: white;
+}
+
+
+#crazyFooter{
+	margin-top: 1rem;
+	width: 100%;
+	height: 16.4rem;
+}
+#crazyFooter p{
+	width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	font-size: 0.75rem;
+	padding-top: 0.1px;
+	border-bottom: 2px solid #e0e0e0;
+}
+#crazyFooter span{
+	padding:0 0.15rem;
+	margin-right: 0.2rem;
+	background: #fdd000;
+}
+#crazyFooter div{
+	padding: 1rem 1rem 1rem 2rem;
+}
+#crazyFooter ul{
+	height: 12rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#crazyFooter li{
+	list-style: decimal outside;
+	font-size: 0.65rem;
+}

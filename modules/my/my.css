@@ -1,0 +1,212 @@
+@charset "utf-8";
+html{
+	height: 100%;
+	font-size: 125%;
+	font-family: '微软雅黑',Helvetica,Tahoma,Arial,'华文细黑',sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	background: #EFEFEF;
+	padding-top: 2.75rem;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 209948 */
+  src: url('http://at.alicdn.com/t/font_g6oa0kqqmbw0o1or.eot');
+  src: url('http://at.alicdn.com/t/font_g6oa0kqqmbw0o1or.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_g6oa0kqqmbw0o1or.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_g6oa0kqqmbw0o1or.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_g6oa0kqqmbw0o1or.svg#iconfont') format('svg');
+}
+#myHeader{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+#account{
+	width: 100%;
+	height: 6rem;
+	background: #ffd600;
+	padding:1rem;
+	display: flex;
+	position: relative;
+}
+#account::after{
+	font-family: "iconfont";
+	content: "\e672";
+	color: white;
+	font-size: 1.5rem;
+	position: absolute;
+	right: 1.5rem;
+	top: 35%;
+}
+#account div{
+	display: inline-block;
+}
+.userImg{
+	width: 3.5rem;
+	height: 3.5rem;
+	border-radius: 100%;
+	background: url(../images/download.png);
+	background-size: 3.5rem 3.5rem;
+}
+.userInfo{
+	margin-left: 1rem;
+}
+.userInfo>p{
+	color: white;
+	font-size: 0.75rem;
+	font-weight:600;
+}
+.userInfo>div{
+	width: 8rem;
+	height: 1.7rem;
+	line-height: 1.5rem;
+	background: url(../images/vip.png) no-repeat;
+	background-size: 5.5rem 1.5rem;
+	text-indent: 2rem;
+	font-size: 0.7rem;
+	color: red;
+	font-weight: 600;
+	margin-top: 0.5rem;
+}
+
+
+#collect{
+	display: flex;
+	width: 100%;
+	height: 2.1rem;
+	background: #f3c800;
+}
+#collect a{
+	color:white;
+	font-size: 0.6rem;
+	width: 50%;
+	text-align: center;
+	line-height: 2.1rem;
+}
+
+.goods{
+	background: url(../images/collect1.png) no-repeat 1rem 0.5rem;
+	background-size: 1rem 1rem;
+}
+.myStore{
+	background: url(../images/collect2.png) no-repeat 1rem 0.5rem;
+	background-size: 1rem 1rem;
+}
+
+
+#myOrder{
+	background: white;
+	width: 100%;
+	margin-top: 5.85rem;
+}
+.all{
+	display: flex;
+	justify-content: space-between;
+	padding:0.7rem 2.5rem 0.7rem 0.8rem;
+	border-bottom: 1px solid #e0e0e0;
+	background: url(../images/right.png) no-repeat
+	100% center;
+	background-size: 1.75rem;
+}
+.all p{
+	font-size: 0.75rem;
+	color: #333;
+}
+.all div{
+	color: #999;
+	font-size: 0.7rem;
+}
+.pay{
+	height: 3.9rem;
+	width: 100%;
+}
+.pay a{
+	float: left;
+	width: 25%;
+	font-size: 0.6rem;
+	color: #333;
+	height: 100%;
+	padding-top: 15%;
+	text-align:center;
+}
+.pay a:first-child{
+	background: url(../images/pay1.png) no-repeat 50% 30%;
+	background-size: 30% 30%;
+}
+.pay a:nth-child(2){
+	background: url(../images/pay2.png) no-repeat 50% 30%;
+	background-size: 30% 30%;
+}
+.pay a:nth-child(3){
+	background: url(../images/pay3.png) no-repeat 50% 30%;
+	background-size: 30% 30%;
+}
+.pay a:nth-child(4){
+	background: url(../images/pay4.png) no-repeat 50% 30%;
+	background-size: 30% 30%;
+}
+
+
+#myNav{
+	width: 100%;
+	margin-top:1rem;
+	background: white;
+	margin-bottom: 2rem;
+}
+#myNav>div{
+	height: 6rem;
+	width: 100%;
+	border-bottom: 1px solid #E0E0E0;
+}
+#myNav a{
+	float: left;
+	width: 25%;
+	font-size: 0.6rem;
+	color: #333;
+	height: 100%;
+	padding-top: 25%;
+	text-align:center;
+}
+.nav1 a:nth-child(1){
+	background: url(../images/nav1.png) no-repeat 50% 40%;
+	background-size: 50% 30%;
+}
+.nav1 a:nth-child(2){
+	background: url(../images/nav2.png) no-repeat 50% 40%;
+	background-size: 50% 30%;
+}
+.nav1 a:nth-child(3){
+	background: url(../images/nav3.png) no-repeat 50% 40%;
+	background-size: 50% 30%;
+}
+.nav1 a:nth-child(4){
+	background: url(../images/nav4.png) no-repeat 50% 40%;
+	background-size: 50% 30%;
+}
+.nav2 a:nth-child(1){
+	background: url(../images/nav5.png) no-repeat 50% 40%;
+	background-size: 50% 30%;
+}
+
+
+#logout{
+	width: 100%;
+	height: 2.7rem;
+	line-height: 2.7rem;
+	background: white;
+	text-align: center;
+	font-size: 0.8rem;
+	margin-bottom: 3.5rem;
+}
